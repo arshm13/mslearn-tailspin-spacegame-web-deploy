@@ -1,8 +1,8 @@
 trigger:
 - '*'
 
-pool:
-  name: Java-samp 
+pool: 
+  name: Java-samp
   vmImage: 'ubuntu-latest'
   demands:
   - npm
