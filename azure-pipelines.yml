@@ -76,7 +76,7 @@ stages:
       vmImage: 'ubuntu-latest'
     environment: dev
     variables:
-    - group: Release
+    - group: myarsh
     strategy:
       runOnce:
         deploy:
